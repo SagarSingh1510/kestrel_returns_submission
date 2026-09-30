@@ -1,0 +1,47 @@
+# -----------------------------------------------------------------------------
+# CONFIDENTIAL ASSESSMENT DATA / OUTPUTS -- DO NOT COMMIT
+# -----------------------------------------------------------------------------
+train.csv
+test_unlabelled.csv
+customers.csv
+products.csv
+sample_submission.csv
+predictions.csv
+validation_predictions.csv
+ops-policy.pdf
+email-thread.txt
+submission-form.md
+memo_to_ritu.pdf
+memo_to_ritu.md
+SCREEN_RECORDING_SCRIPT.md
+model_bundle.joblib
+
+# Common private folders / generated authorized outputs
+data/
+private/
+confidential/
+private_output/
+evidence/
+submission/
+*.zip
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
